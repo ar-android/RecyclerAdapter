@@ -86,5 +86,5 @@ holder.itemView.setOnClickListener(new View.OnClickListener() {
 LICENCE
 -----
 
-PercentView by [Ahmad Rosid](http://ahmadrosid.com/) is licensed under a [Apache License 2.0](http://www.apache.org/licenses/LICENSE-2.0).
+RecyclerAdapter by [Ahmad Rosid](https://github.com/ar-android) is licensed under a [Apache License 2.0](http://www.apache.org/licenses/LICENSE-2.0).
 
