@@ -24,31 +24,18 @@ To use this adapter folow this step
 ## Step 1 : Create your item view for recyclerview
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
              android:layout_width="match_parent"
-             android:layout_height="wrap_content"
-             android:clickable="true"
-             android:foreground="?attr/selectableItemBackground">
-
-    <LinearLayout
+             android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/item_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:text="Null"/>
 
-        <TextView
-            android:id="@+id/item_text"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:padding="10dp"
-            android:textSize="20sp"
-            android:text="Null"/>
-
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="0.5dp"
-            android:background="#636363"/>
-    </LinearLayout>
-</FrameLayout>
+</LinearLayout>
 ```
 ## Step 2 : Create yout viewholder
 This sample view holder
