@@ -77,7 +77,7 @@ If you want to give clicklistener :
 ```java
 holder.itemView.setOnClickListener(new View.OnClickListener() {
     @Override public void onClick(View v) {
-    
+    	//To do click listener here
     }
 });
 ```
